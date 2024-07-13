@@ -1,0 +1,1 @@
+To use this config, simply copy the whole .config into `dotfiles/`. It should overwrite the .config already present and update the symbolic links. If the image is not already present, take it from Picture/Wallpaper/Cthulu{1,2}.jpg

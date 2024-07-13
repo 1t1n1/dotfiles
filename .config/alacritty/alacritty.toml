@@ -1,0 +1,59 @@
+[colors]
+indexed_colors = []
+
+[colors.bright]
+black = "0x414458"
+blue = "0x00bfff"
+cyan = "0x00cccc"
+green = "0x186d23"
+magenta = "0xff0090"
+red = "0xff6347"
+white = "0xfcfcfc"
+yellow = "0xffeb3b"
+
+[colors.normal]
+black = "0x282A36"
+blue = "0x0080c0"
+cyan = "0x00cccc"
+green = "0x75b76f"
+magenta = "0xc7007d"
+red = "0xe74c3c"
+white = "0xf2f2f2"
+yellow = "0xf9a602"
+
+[colors.primary]
+background = "0x111411"
+
+[cursor]
+style = "Beam"
+unfocused_hollow = false
+
+[font]
+size = 8
+
+[font.bold]
+family = "Source Code Pro"
+style = "Bold"
+
+[font.bold_italic]
+family = "Source Code Pro"
+style = "Bold Italic"
+
+[font.italic]
+family = "Source Code Pro"
+style = "Italic"
+
+[font.normal]
+family = "Source Code Pro"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Super|Shift"
+
+[scrolling]
+history = 10000
+
+[selection]
+save_to_clipboard = true
