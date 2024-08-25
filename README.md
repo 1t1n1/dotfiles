@@ -8,7 +8,7 @@ For a Arch Linux System, one needs to download the packages located in the `pkg`
 > Note: Make sure to backup your files before following this guide if any of the commands below involve overwriting a config
 ```shell
 $ cd ~/bin
-$ git clone https://github.com/Erreur-404/dotfiles.git
+$ git clone https://github.com/1t1n1/dotfiles.git
 $ ln -s ~/bin/dotfiles/.config/alacritty/ ~/.config/
 $ ln -s ~/bin/dotfiles/.config/dunst/ ~/.config/ 
 $ ln -s ~/bin/dotfiles/.config/i3/ ~/.config/
@@ -20,6 +20,7 @@ $ ln -s ~/bin/dotfiles/.config/gtk-3.0/settings.ini ~/.config/gtk-3.0/
 $ ln -s ~/bin/dotfiles/.config/oh-my-zsh/themes/jonathan.zsh-theme ~/.oh-my-zsh/themes/jonathan.zsh-theme
 $ ln -s ~/bin/dotfiles/.vim ~/
 $ sudo pacman -U pkg/ttf-nerd-fonts-symbols-2048-em-2.3.3-1-any.pkg.tar.zst
+$ cd bin/vpn/src && make && sudo chown root:root protonvpn_toggler && sudo chmod u+s protonvpn_toggler
 ```
 
 # Tools
