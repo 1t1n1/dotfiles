@@ -6,6 +6,7 @@ Before=hybrid-sleep.target
 
 [Service]
 Type=forking
+User=<your_username>
 ExecStart=/home/<your_username>/bin/dotfiles/bin/vpn/src/protonvpn.sh toggle_fastest
 
 [Install]
