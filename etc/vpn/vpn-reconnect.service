@@ -4,14 +4,14 @@ Requires=network-online.target
 After=suspend.target
 After=hibernate.target
 After=hybrid-sleep.target
-After=multi-user.target
+After=default.target
 
 [Service]
 Type=forking
 ExecStart=/home/<your_username>/bin/dotfiles/bin/vpn/src/protonvpn.sh toggle_fastest
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
 WantedBy=suspend.target
 WantedBy=hibernate.target
 WantedBy=hybrid-sleep.target
