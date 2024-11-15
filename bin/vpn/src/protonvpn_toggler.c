@@ -26,6 +26,9 @@ int main(int argc, char **argv) {
 	else if (!strncmp(argv[1], "connect_random", 14)) {
 		system("protonvpn connect --random");
 	}
+	else if (!strncmp(argv[1], "reconnect", 9)) {
+		system("protonvpn reconnect");
+	}
 	else if (!strncmp(argv[1], "disconnect", 10)) {
 		system("protonvpn disconnect");
 	}
