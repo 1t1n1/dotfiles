@@ -6,11 +6,7 @@ Before=hybrid-sleep.target
 
 [Service]
 Type=forking
-Environment=PVPN_WAIT=300
-Environment=PVPN_DEBUG=1
-Environment=SUDO_USER=insert_your_username_here
-ExecStart=/usr/bin/protonvpn disconnect
-
+ExecStart=/home/<your_username>/bin/dotfiles/bin/vpn/src/protonvpn.sh toggle_fastest
 
 [Install]
 WantedBy=suspend.target

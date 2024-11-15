@@ -1,18 +1,17 @@
 [Unit]
-Description=VPN reconnect after sleep
+Description=VPN reconnect after sleep and when logged in
 Requires=network-online.target
 After=suspend.target
 After=hibernate.target
 After=hybrid-sleep.target
+After=multi-user.target
 
 [Service]
 Type=forking
-Environment=PVPN_WAIT=300
-Environment=PVPN_DEBUG=1
-Environment=SUDO_USER=insert_your_username_here
-ExecStart=/usr/local/bin/protonvpn c -f
+ExecStart=/home/<your_username>/bin/dotfiles/bin/vpn/src/protonvpn.sh toggle_fastest
 
 [Install]
+WantedBy=multi-user.target
 WantedBy=suspend.target
 WantedBy=hibernate.target
 WantedBy=hybrid-sleep.target
