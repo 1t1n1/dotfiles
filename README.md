@@ -19,9 +19,13 @@ $ ln -s ~/bin/dotfiles/.config/ranger ~/.config/
 $ ln -s ~/bin/dotfiles/.config/gtk-3.0/settings.ini ~/.config/gtk-3.0/
 $ ln -s ~/bin/dotfiles/.config/oh-my-zsh/themes/jonathan.zsh-theme ~/.oh-my-zsh/themes/jonathan.zsh-theme
 $ ln -s ~/bin/dotfiles/.vim ~/
+$ sudo ln -s ~/bin/dotfiles/etc/vpn/vpn-disconnect.service /etc/systemd/system/vpn-disconnect.service
+$ sudo ln -s ~/bin/dotfiles/etc/vpn/vpn-reconnect.service /etc/systemd/system/vpn-reconnect.service
+$ # Replace username placeholder of vpn services with your username
 $ sudo pacman -U pkg/ttf-nerd-fonts-symbols-2048-em-2.3.3-1-any.pkg.tar.zst
 $ cd bin/vpn/src && make && sudo chown root:root protonvpn_toggler && sudo chmod u+s protonvpn_toggler
 ```
 
 # Tools
 Use the `i3-theme` tool located in `~/bin/dotfiles/bin/i3-theme/i3-theme.sh` to change the theme dynamically
+
