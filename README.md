@@ -25,6 +25,7 @@ $ # Replace username placeholder of vpn services with your username
 $ sudo pacman -U pkg/ttf-nerd-fonts-symbols-2048-em-2.3.3-1-any.pkg.tar.zst
 $ cd bin/vpn/src && make && sudo chown root:root protonvpn_toggler && sudo chmod u+s protonvpn_toggler
 ```
+A dummy install script is also provided (`install.sh`), but hasn't been tested. Make sure to read its content before you run it.
 
 # Tools
 Use the `i3-theme` tool located in `~/bin/dotfiles/bin/i3-theme/i3-theme.sh` to change the theme dynamically
