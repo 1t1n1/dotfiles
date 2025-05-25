@@ -18,10 +18,8 @@ set number relativenumber
 set tabstop=4
 set shiftwidth=4
 
-" Copy visually selected text to clipboard
+" Copy visually selected text to clipboard (in NORMAL Mode)
 vnoremap <C-c> "+y
 
-" Paste from clipboard
-nnoremap <C-v> "+p
-inoremap <C-v> "+p
-
+" Paste from clipboard (in INSERT mode)
+inoremap <C-V> <Esc>"+p"
