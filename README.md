@@ -18,6 +18,7 @@ $ ln -s ~/bin/dotfiles/.config/rofi/ ~/.config/
 $ ln -s ~/bin/dotfiles/.config/ranger ~/.config/
 $ ln -s ~/bin/dotfiles/.config/gtk-3.0/settings.ini ~/.config/gtk-3.0/
 $ ln -s ~/bin/dotfiles/.config/oh-my-zsh/themes/jonathan.zsh-theme ~/.oh-my-zsh/themes/jonathan.zsh-theme
+$ ln -s ~/bin/dotfiles/.tmux.conf ~/.tmux.conf
 $ ln -s ~/bin/dotfiles/.vim ~/
 $ sudo ln -s ~/bin/dotfiles/etc/vpn/vpn-disconnect.service /etc/systemd/system/vpn-disconnect.service
 $ sudo ln -s ~/bin/dotfiles/etc/vpn/vpn-reconnect.service /etc/systemd/system/vpn-reconnect.service
