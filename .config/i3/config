@@ -224,6 +224,7 @@ focus_follows_mouse no
 
 # These informations can be retrieved with `xprop`
 assign [class="(?i)firefox"] workspace 2
+assign [class="(?i)librewolf"] workspace 2
 for_window [class="(?i)spotify"] move window to workspace 3
 assign [class="(?i)discord"] workspace 4
 assign [class="(?i)codium"] workspace 5
