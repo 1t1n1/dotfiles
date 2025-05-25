@@ -15,6 +15,7 @@ if [[ $confirmation == "y" ]]; then
 	ln -s ~/bin/dotfiles/.config/gtk-3.0/settings.ini ~/.config/gtk-3.0/
 	ln -s ~/bin/dotfiles/.config/oh-my-zsh/themes/jonathan.zsh-theme ~/.oh-my-zsh/themes/jonathan.zsh-theme
 	ln -s ~/bin/dotfiles/.tmux.conf ~/.tmux.conf
+	ln -s ~/bin/dotfiles/.vimrc ~/
 	ln -s ~/bin/dotfiles/.vim ~/
 	sed 's/<your_username>/'$USER'/' ~/bin/dotfiles/etc/vpn/vpn-disconnect.service 
 	sed 's/<your_username>/'$USER'/' ~/bin/dotfiles/etc/vpn/vpn-reconnect.service 
