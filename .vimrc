@@ -23,3 +23,7 @@ vnoremap <C-c> "+y
 
 " Paste from clipboard (in INSERT mode)
 inoremap <C-V> <Esc>"+p"
+
+" Might be necessary to correct bugs
+" set timeoutlen=1000
+" set ttimeoutlen=5
