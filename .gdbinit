@@ -9,6 +9,7 @@
 # VANILLA
 set disassembly-flavor intel
 set debuginfod enabled off
+set print asm-demangle on
 set height 0
 set print pretty on
 tui new-layout gui src 1 asm 1 status 0 {-horizontal cmd 1 regs 1} 1
